@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background-color: black;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.container {
+  text-indent: 0;
+  color: white;
+  border: none;
+  margin: 300px;
+  padding-left: 80px;
+  padding-right: 65px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  width: 200px;
+  margin-left: 465px;
+  margin-bottom: 180px;
+  background-color: rgb(32,38,47);
+}
+.title {
+margin-left: -145px;
+text-indent: 0;
+font-family: Overpass, sans-serif;
+font-weight:  400;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: -26px;
+  text-indent: 0;
+}
+
+.rating-description {
+  color: #686e78;
+  width: 300px;
+  text-indent: 0;
+  text-align: center; 
+  margin-right: 5px;
+  margin-left: -45px;
+  text-indent: 0; 
+  margin: 0; 
+  padding: 0;
+  text-indent: 0;
+}
+
+.star-button {
+  color: rgb(254,119,26);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(37,48,53);
+  border: none;
+  margin-left: -280px;
+  text-indent: 0;
+}
+
+.numbers {
+background-color: #282d38;
+color: #858d97;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+border: none;
+margin-bottom: 15px;
+text-indent: 0;
+font-weight: bold;
+}
+
+.numbers:hover {
+  background-color: rgb(255,116,10);
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+
+.numbers:hover.active {
+  background-color: white;
+  
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-indent: 0;
+}
+
+.submit-button {
+  border-radius: 20px;
+  font-size: 14px;
+  width: 298px;
+  height: 38px;
+  border: none;
+  font-weight: bold;
+  margin-left: -55px;
+  background-color: rgb(250,118,17);
+  text-indent: 0;
+}
+
+.submit-container {
+ display: flex;
+ flex-direction: column;
+}
+
+.submit-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+
